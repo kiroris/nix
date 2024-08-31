@@ -50,6 +50,7 @@ in {
           machineModulesPathExist
           hyprlandEnable
           swayEnable
+          gnomeEnable
           wmEnable;
       };
 

@@ -1,6 +1,5 @@
 {
-
-  description = "Kiroris Flake"
+  description = "Kiroris Flake."
 
   inputs = {
     # Official NixOS repo.
@@ -109,7 +108,6 @@
         platform      = "x86_64-linux";
         stateVersion  = "24.11";
         isWorkstation = true;
-        #wm            = "sway";
         wm            = "gnome";
       };
     };
@@ -123,18 +121,18 @@
       "x86_64-darwin"
     ];
 
-    flake = {
-      nixosConfigurations = {
-        #${hosts.wisteria.hostname} = libx.mkHost hosts.wisteria;
-        #${hosts.nbox.hostname}  = libx.mkHost hosts.nbox;
-        #${hosts.rasp.hostname}  = libx.mkHost hosts.rasp;
-      };
+    #flake = {
+    #  nixosConfigurations = {
+    #    #${hosts.wisteria.hostname} = libx.mkHost hosts.wisteria;
+    #    #${hosts.nbox.hostname}  = libx.mkHost hosts.nbox;
+    #    #${hosts.rasp.hostname}  = libx.mkHost hosts.rasp;
+    #  };
 
-      #darwinConfigurations = {
-      #  #${hosts.macbox.hostname} = libx.mkHostDarwin hosts.macbox;
-      #};
+    #  darwinConfigurations = {
+    #  #  #${hosts.macbox.hostname} = libx.mkHostDarwin hosts.macbox;
+    #  };
 
-      templates = import "${self}/templates" { inherit self; };
-    };
+    #  templates = import "${self}/templates" { inherit self; };
+    #};
   };
 }
