@@ -66,7 +66,7 @@ in {
       ];
     };
 
-  # Helper function for generating darwin host configs
+  # Helper function for generating darwin host configs.
   mkHostDarwin = 
     { hostname ? "mac"
     , username ? "kiroris"
