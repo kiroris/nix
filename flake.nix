@@ -97,13 +97,23 @@
   outputs = { self, flake-parts, ... } @ inputs:
   let
     # Import helper funcfions.
-    libx = import ./lib { inherit self inputs; };
+    #libx = import ./lib { inherit self inputs; };
 
     # Description of hosts.
     hosts = {
       # Main PC.
       wisteria = {
         hostname      = "wisteria";
+        username      = "kiroris";
+        platform      = "x86_64-linux";
+        stateVersion  = "24.11";
+        isWorkstation = true;
+        wm            = "hyprland";
+      };
+
+      # Main Laptop.
+      lycoris = {
+        hostname      = "lycoris";
         username      = "kiroris";
         platform      = "x86_64-linux";
         stateVersion  = "24.11";
@@ -121,18 +131,17 @@
       "x86_64-darwin"
     ];
 
-    #flake = {
-    #  nixosConfigurations = {
-    #    #${hosts.wisteria.hostname} = libx.mkHost hosts.wisteria;
-    #    #${hosts.nbox.hostname}  = libx.mkHost hosts.nbox;
-    #    #${hosts.rasp.hostname}  = libx.mkHost hosts.rasp;
-    #  };
+    flake = {
+      nixosConfigurations = {
+        ${hosts.wisteria.hostname} = libx.mkHost hosts.wisteria;
+        ${hosts.lycoris.hostname}  = libx.mkHost hosts.lycoris;
+      };
 
     #  darwinConfigurations = {
     #  #  #${hosts.macbox.hostname} = libx.mkHostDarwin hosts.macbox;
     #  };
 
-    #  templates = import "${self}/templates" { inherit self; };
-    #};
+      #templates = import "${self}/templates" { inherit self; };
+    };
   };
 }
