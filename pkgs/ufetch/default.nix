@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with lib; {
-    description = "Tiny system info for Unix-like operating systems";
+    description = "Tiny system info for Unix-like operating systems.";
     license = licenses.mit;
     homepage = "https://gitlab.com/jschx/ufetch";
     # maintainers = with maintainers; [ haslersn ];
