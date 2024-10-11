@@ -151,7 +151,7 @@
       darwinConfigurations = libx.genDarwin hosts.darwin;
 
       # Templates.
-      #templates = import "${self}/templates" { inherit self; };
+      templates = import "${self}/templates" { inherit self; };
     };
   };
 }
