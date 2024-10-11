@@ -65,7 +65,7 @@
 
     # Hyprland.
     hyprland = {
-      url = "github:hyprwm/Hyprland";
+      url = "git+https://github.com/hyprwm/Hyprland?submodules=1&rev=c5feee1e357f3c3c59ebe406630601c627807963";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
