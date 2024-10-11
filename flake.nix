@@ -138,10 +138,10 @@
   in flake-parts.lib.mkFlake { inherit inputs; } {
     systems = libx.forAllSystems;
 
-    #imports = [
-    #  ./parts
-    #  # ./docs
-    #];
+    imports = [
+      ./parts
+      #./docs
+    ];
 
     flake = {
       # NixOS Hosts configuration.
