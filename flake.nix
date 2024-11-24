@@ -3,16 +3,24 @@
 
   inputs = {
     # Official NixOS repo.
-    master.url = "github:NixOS/nixpkgs/master";
+    master = {
+      url = "github:NixOS/nixpkgs/master";
+    };
 
     # Lates stable version.
-    stable.url = "github:NixOS/nixpkgs/nixos-24.05";
+    stable = {
+      url = "github:NixOS/nixpkgs/nixos-24.05";
+    };
 
     # Unstable version.
-    unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
+    unstable = {
+      url = "github:NixOS/nixpkgs/nixos-unstable";
+    };
 
     # Current nixpkgs branch.
-    nixpkgs.follows = "unstable";
+    nixpkgs = {
+      follows = "unstable";
+    };
 
     # NixOS community.
     home-manager = {
@@ -57,16 +65,21 @@
       url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
     };
 
+    # Generate infrastructure and network diagrams as Svg.
+    nix-topology = {
+      url = "github:oddlama/nix-topology";
+    };
+
     # MacOS configuration.
     darwin = {
       url = "github:LnL7/nix-darwin/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    # Hyprland.
+    # Hyprland ecosystem.
     hyprland = {
       url = "git+https://github.com/hyprwm/Hyprland?submodules=1&rev=c5feee1e357f3c3c59ebe406630601c627807963";
-      inputs.nixpkgs.follows = "nixpkgs";
+      #inputs.nixpkgs.follows = "nixpkgs";
     };
 
     # Xdg-Desktop-Portal backend for Hyprland.
@@ -96,7 +109,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    # Zsh plugins
+    # Zsh plugins.
     powerlevel10k = {
       url = "github:romkatv/powerlevel10k";
       flake = false;
