@@ -144,15 +144,15 @@
   outputs = { self, flake-parts, ... } @ inputs:
   let
     # Description of hosts.
-    hosts = import ./hosts.nix; 
+    #hosts = import ./hosts.nix; 
 
     # Import helper funcfions.
-    libx = import ./lib { inherit self inputs; };
+    #libx = import ./lib { inherit self inputs; };
   in flake-parts.lib.mkFlake { inherit inputs; } {
     systems = libx.forAllSystems;
 
     imports = [
-      ./parts
+      #./parts
       #./docs
     ];
 
@@ -164,7 +164,7 @@
       darwinConfigurations = libx.genDarwin hosts.darwin;
 
       # Templates.
-      templates = import "${self}/templates" { inherit self; };
+      #templates = import "${self}/templates" { inherit self; };
     };
   };
 }

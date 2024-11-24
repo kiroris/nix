@@ -28,7 +28,7 @@ let
 
       swayEnable     = wm == "sway";
       hyprlandEnable = wm == "hyprland";
-      wmEnable       = hyprlandEnable || swayEnable; # TODO GNOME.
+      wmEnable       = hyprlandEnable || swayEnable;
     in inputs.nixpkgs.lib.nixosSystem {
       specialArgs = {
         inherit 
@@ -50,7 +50,7 @@ let
           machineModulesPathExist
           hyprlandEnable
           swayEnable
-          wmEnable; # TODO GNOME.
+          wmEnable;
       };
 
       modules = [
