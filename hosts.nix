@@ -1,6 +1,6 @@
 {
   nixos = {
-    wisteria = { #pcbox
+    wisteria = { # pcbox.
       username      = "kiroris";
       platform      = "x86_64-linux";
       stateVersion  = "24.11";
@@ -8,7 +8,15 @@
       wm            = "sway";
     };
 
-    nbox = {
+    pion = { # pcbox.
+      username      = "xtentmin";
+      platform      = "x86_64-linux";
+      stateVersion  = "24.11";
+      isWorkstation = true;
+      wm            = "hyprland";
+    };
+
+    lycoris = { # nbox.
       username      = "kiroris";
       platform      = "x86_64-linux";
       stateVersion  = "24.11";
