@@ -10,19 +10,6 @@ with lib;
 let
   cfg = config.module.nix-config;
 in {
-{ inputs
-{ inputs
-, lib
-, config
-, pkgs
-, ...
-}:
-
-with lib;
-
-let
-  cfg = config.module.nix-config;
-in {
   options = {
     module.nix-config = {
       enable = mkEnableOption "Enables nix-config";
