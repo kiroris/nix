@@ -13,7 +13,7 @@ let
 
   theme = "${pkgs.base16-schemes}/share/themes/nord.yaml";
   wallpaper = "${self}/assets/grey_gradient.png";
-  cursorSize = if hostname == "nbox" then 24 else 14;
+  cursorSize = if hostname == "lycoris" then 24 else 14;
 in {
   options = {
     module.stylix.enable = mkEnableOption "Enables stylix";
