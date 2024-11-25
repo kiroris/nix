@@ -20,6 +20,8 @@
     inputs.disko.nixosModules.disko
     inputs.lanzaboote.nixosModules.lanzaboote
     inputs.chaotic.nixosModules.default
+    #inputs.nix-topology.nixosModules.default
+    inputs.nur.nixosModules.nur
 
     "${commonModules}"
     "${systemModules}"
@@ -35,6 +37,10 @@
 
   # HostPlatform.
   nixpkgs = {
+    #overlays = [
+    #  inputs.nix-topology.overlays.default
+    #];
+
     hostPlatform = platform;
   };
 }
