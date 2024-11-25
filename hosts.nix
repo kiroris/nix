@@ -1,7 +1,6 @@
 {
   nixos = {
-    #pcbox
-    wisteria = {
+    wisteria = { #pcbox
       username      = "kiroris";
       platform      = "x86_64-linux";
       stateVersion  = "24.11";
