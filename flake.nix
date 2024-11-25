@@ -70,6 +70,11 @@
       url = "github:oddlama/nix-topology";
     };
 
+    # Gaming on Nix.
+    nix-gaming = {
+      url = "github:fufexan/nix-gaming";
+    };
+
     # MacOS configuration.
     darwin = {
       url = "github:LnL7/nix-darwin/master";
