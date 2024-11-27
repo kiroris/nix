@@ -1,4 +1,4 @@
-{ lib
+{{ lib
 , config
 , ...
 }:
@@ -16,18 +16,23 @@ in {
 
   config = mkIf cfg.enable {
     boot.initrd.systemd.enable = true;
-    # systemd.sysusers.enable = true; ### break
+    # systemd.sysusers.enable = true; ### break.
 
-    services.dbus.implementation = "broker";
-
-    system.switch = {
-      enable = false;
-      enableNg = true;
+    services = {
+      #userborn.enable     = true;
+      dbus.implementation = "broker";
     };
 
-    # system.etc.overlay = {
-      # enable = true;
-      # mutable = false;
-    # };
+    system = {
+      switch = {
+        enable = false;
+        enableNg = true;
+      };
+
+      /* etc.overlay = {
+        enable = true;
+        mutable = true;
+      }; */
+    };
   };
 }
