@@ -35,6 +35,8 @@ in {
       unrar-free
       p7zip
       unzip
+      xz
+      zstd
       killall
       jq
 
