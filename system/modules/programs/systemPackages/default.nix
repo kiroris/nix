@@ -52,8 +52,12 @@ in {
       sbctl
 
       # Network
+      wireshark
       inetutils
+      tcpdump
+      iperf3d
       wireguard-tools
+      aria
       dig
       nmap
       dnsutils
