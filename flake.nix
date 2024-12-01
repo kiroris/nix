@@ -65,11 +65,6 @@
       url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
     };
 
-    # Generate infrastructure and network diagrams as Svg.
-    nix-topology = {
-      url = "github:oddlama/nix-topology";
-    };
-
     # Gaming on Nix.
     nix-gaming = {
       url = "github:fufexan/nix-gaming";
