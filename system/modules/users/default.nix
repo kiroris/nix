@@ -37,14 +37,14 @@ in {
           hashedPasswordFile = "${self}/secrets/hashes/${username}.hash";
 
           extraGroups = [
-            "wheel"
-            "audio"
             "video"
             "users"
-            "networkmanager"
-            "docker"
             "adbusers"
             "wireshark"
+            "audio"
+            "networkmanager"
+            "wheel"
+            "docker"
             "libvirtd"
           ];
         };
