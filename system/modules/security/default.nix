@@ -105,7 +105,7 @@ in {
         # Ignore broadcast ICMP (mitigate SMURF).
         "net.ipv4.icmp_echo_ignore_broadcasts" = true;
 
-        # Ignore incoming ICMP redirects (note: default is needed to ensure that the.
+        # Ignore incoming ICMP redirects (note: default is needed to ensure that the
         # setting is applied to interfaces added after the sysctls are set).
         "net.ipv4.conf.all.accept_redirects" = false;
         "net.ipv4.conf.all.secure_redirects" = false;
