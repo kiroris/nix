@@ -29,7 +29,7 @@ in {
           epp = "power";
           energy-performance-preference = "power";
           turbo = "never";
-          scaling_max_freq = 2000000;
+          scaling_max_freq = 2900000;
         };
       };
     };
