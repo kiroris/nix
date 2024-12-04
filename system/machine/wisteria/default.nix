@@ -36,8 +36,8 @@
       polkit.enable     = true;
       printing.enable   = false;
       syncthing.enable  = true;
-      zram.enable       = true;
       udev.enable       = true;
+      zram.enable       = true;
       greetd.enable     = true;
       qmk.enable        = true;
       netbird.enable    = true;
@@ -46,7 +46,6 @@
       forgejo.enable    = true;
       sshd.enable       = true;
       tailscale.enable  = true;
-
 
       ollama = {
         enable            = true;
