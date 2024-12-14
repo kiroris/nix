@@ -17,7 +17,9 @@ in {
   config = mkIf cfg.enable {
     boot.loader = {
       systemd-boot.enable = true;
+      systemd-boot.configurationLimit = lib.mkDefault 10;
       efi.canTouchEfiVariables = true;
+      timeout = lib.mkForce 5;
     };
   };
 }
