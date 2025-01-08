@@ -1,6 +1,6 @@
 - templates
     - devshell
-        - [] flake.nix
+        - [x] flake.nix
     - module
         - [x] default.nix
     - overlay
