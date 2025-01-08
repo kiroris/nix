@@ -2,8 +2,8 @@
     - devshell
         - [] flake.nix
     - module
-        - [] default.nix
+        - [x] default.nix
     - overlay
-        - [] default.nix
-    - [] default.nix
+        - [x] default.nix
+    - [x] default.nix
 - [] hosts.nix
