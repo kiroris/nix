@@ -1,0 +1,3 @@
+- templates
+    - [x] default.nix
+- [x] hosts.nix
