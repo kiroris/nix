@@ -1,3 +1,9 @@
 - templates
+    - devshell
+        - [x] flake.nix
+    - module
+        - [x] default.nix
+    - overlay
+        - [x] default.nix
     - [x] default.nix
 - [x] hosts.nix
