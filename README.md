@@ -1,3 +1,6 @@
+- pkgs
+    - ufetch
+        - [x] default.nix
 - templates
     - devshell
         - [x] flake.nix
