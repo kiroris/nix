@@ -1,3 +1,9 @@
+- parts
+    - devshell
+        - [x] default.nix
+    - treefmt
+        - [x] default.nix
+    - [x] default.nix
 - pkgs
     - ufetch
         - [x] default.nix
