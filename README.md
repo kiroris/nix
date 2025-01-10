@@ -1,3 +1,9 @@
+- modules
+    - nix
+        - [x] default.nix
+    - stylix
+        - [x] default.nix
+    - [x] default.nix
 - overlays
     - nixpkgs
         - master

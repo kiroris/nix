@@ -31,8 +31,8 @@ in {
         "electron-27.3.11"
         "electron-25.9.0"
         "electron-19.1.9"
-        "fluffychat-linux-1.20.0"
-        "olm-3.2.16"
+        #"fluffychat-linux-1.20.0"
+        #"olm-3.2.16"
       ];
     };
 
