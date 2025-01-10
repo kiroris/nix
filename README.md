@@ -1,3 +1,5 @@
+- lib
+    - [x] default.nix
 - modules
     - nix
         - [x] default.nix
