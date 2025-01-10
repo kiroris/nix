@@ -24,6 +24,11 @@
 - pkgs
     - ufetch
         - [x] default.nix
+- system
+    - overlays
+        - vaapiIntel
+            - [x] default.nix
+    - [x] default.nix
 - templates
     - devshell
         - [x] flake.nix
