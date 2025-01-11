@@ -48,8 +48,14 @@
             - [x] default.nix
         - plymouth
             - [x] default.nix
+        - programs
+            -
+            -
         - security
             - [x] default.nix
+        - services
+            -
+            -
         - sound
             - [x] default.nix 
         - timedate
