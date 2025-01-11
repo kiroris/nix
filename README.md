@@ -28,6 +28,12 @@
     - modules
         - bluetooth
             - [x] default.nix
+        - boot
+            - [x] default.nix
+        - chaotic
+            - [-] default.nix
+        - gaming
+            - [-] default.nix
         - [x] default.nix
     - overlays
         - vaapiIntel
