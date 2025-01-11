@@ -10,7 +10,7 @@ let
 in {
   options = {
     module.minimal = {
-      enable = mkEnableOption "Enables minimal";
+      enable = mkEnableOption "Enables minimal.";
     };
   };
 

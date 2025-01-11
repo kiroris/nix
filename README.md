@@ -39,6 +39,7 @@
         - locales
             - [x] default.nix
         - minimal
+            - [x] default.nix
         - network
         - [x] default.nix
     - overlays
