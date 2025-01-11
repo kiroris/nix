@@ -56,6 +56,8 @@
             - [x] default.nix
         - users
             - [x] default.nix
+        - variables
+            - [x] default.nix
         - [x] default.nix
     - overlays
         - vaapiIntel

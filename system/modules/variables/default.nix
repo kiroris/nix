@@ -10,7 +10,7 @@ let
   cfg = config.module.variables;
 in {
   options = {
-    module.variables.enable = mkEnableOption "Enables variables";
+    module.variables.enable = mkEnableOption "Enables variables.";
   };
 
   config = mkIf cfg.enable {
