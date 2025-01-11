@@ -31,7 +31,7 @@
         - boot
             - [x] default.nix
         - chaotic
-            - [-] default.nix
+            - [x] default.nix
         - gaming
             - [-] default.nix
         - [x] default.nix

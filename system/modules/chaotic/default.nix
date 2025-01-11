@@ -10,7 +10,7 @@ let
 in {
   options = {
     module.chaotic = {
-      enable = mkEnableOption "Enables chaotic module"; 
+      enable = mkEnableOption "Enables chaotic module."; 
 
       schedulerType = mkOption {
         type = types.str;
