@@ -41,6 +41,7 @@
         - minimal
             - [x] default.nix
         - network
+            - [x] default.nix
         - [x] default.nix
     - overlays
         - vaapiIntel

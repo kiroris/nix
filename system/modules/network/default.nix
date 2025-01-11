@@ -10,7 +10,7 @@ let
   cfg = config.module.network;
 in {
   options = {
-    module.network.enable = mkEnableOption "Enables network";
+    module.network.enable = mkEnableOption "Enables network.";
   };
 
   config = mkIf cfg.enable {
