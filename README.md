@@ -54,6 +54,8 @@
             - [x] default.nix 
         - timedate
             - [x] default.nix
+        - users
+            - [x] default.nix
         - [x] default.nix
     - overlays
         - vaapiIntel
