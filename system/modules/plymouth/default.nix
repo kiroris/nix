@@ -10,7 +10,7 @@ let
 in {
   options = {
     module.plymouth = {
-      enable = mkEnableOption "Enables plymouth";
+      enable = mkEnableOption "Enables plymouth.";
     };
   };
 

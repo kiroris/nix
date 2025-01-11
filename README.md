@@ -46,6 +46,8 @@
             - [x] default.nix
         - pihole
             - [x] default.nix
+        - plymouth
+            - [x] default.nix
         - [x] default.nix
     - overlays
         - vaapiIntel
