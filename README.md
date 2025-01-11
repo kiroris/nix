@@ -48,6 +48,8 @@
             - [x] default.nix
         - plymouth
             - [x] default.nix
+        - security
+            - [x] default.nix
         - [x] default.nix
     - overlays
         - vaapiIntel

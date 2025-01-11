@@ -10,9 +10,9 @@ let
 in {
   options = {
     module.security = {
-      enable            = mkEnableOption "Enables security";
-      enableBootOptions = mkEnableOption "Enables boot options";
-      disableIPV6       = mkEnableOption "Disable ipv6";
+      enable            = mkEnableOption "Enables security.";
+      enableBootOptions = mkEnableOption "Enables boot options.";
+      disableIPV6       = mkEnableOption "Disable ipv6.";
     };
   };
 
@@ -79,7 +79,7 @@ in {
         "jfs"
         "minix"
         "nilfs2"
-        "ntfs"
+        #"ntfs"
         "omfs"
         "qnx4"
         "qnx6"
