@@ -10,7 +10,7 @@ let
   cfg = config.module.gaming;
 in {
   options = {
-    module.gaming.enable = mkEnableOption "Enables things needed for gaming";
+    module.gaming.enable = mkEnableOption "Enables things needed for gaming.";
   };
 
   config = mkIf cfg.enable {
@@ -58,7 +58,7 @@ in {
   };
   
   environment.systemPackages = with pkgs; [
-    inputs.nix-gaming.packages.${pkgs.system}.viper
+    #inputs.nix-gaming.packages.${pkgs.system}.viper
     mangohud
     wine
     wineWow64Packages.unstableFull

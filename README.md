@@ -33,7 +33,11 @@
         - chaotic
             - [x] default.nix
         - gaming
-            - [-] default.nix
+            - [x] default.nix
+        - lanzaboot
+        - locales
+        - minimal
+        - network
         - [x] default.nix
     - overlays
         - vaapiIntel
