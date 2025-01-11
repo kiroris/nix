@@ -37,6 +37,7 @@
         - lanzaboot
             - [x] default.nix
         - locales
+            - [x] default.nix
         - minimal
         - network
         - [x] default.nix

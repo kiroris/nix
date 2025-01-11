@@ -9,7 +9,7 @@ let
   cfg = config.module.locales;
 in {
   options = {
-    module.locales.enable = mkEnableOption "Enables locales";
+    module.locales.enable = mkEnableOption "Enables locales.";
   };
 
   config = mkIf cfg.enable {
