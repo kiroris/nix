@@ -51,6 +51,8 @@
         - programs
             - dconf
                 - [x] default.nix
+            - fish
+                - [x] default.nix
             - [x] default.nix
         - security
             - [x] default.nix

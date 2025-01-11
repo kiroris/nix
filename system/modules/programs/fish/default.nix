@@ -9,7 +9,7 @@ let
   cfg = config.module.programs.fish;
 in {
   options = {
-    module.programs.fish.enable = mkEnableOption "Enable fish";
+    module.programs.fish.enable = mkEnableOption "Enable fish.";
   };
 
   config = mkIf cfg.enable {
