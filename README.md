@@ -49,8 +49,9 @@
         - plymouth
             - [x] default.nix
         - programs
-            -
-            -
+            - dconf
+                - [x] default.nix
+            - [x] default.nix
         - security
             - [x] default.nix
         - services
