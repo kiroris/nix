@@ -12,7 +12,7 @@ let
 in {
   options = {
     module.virtualisation = {
-      enable = mkEnableOption "Enables virtualisation";
+      enable = mkEnableOption "Enables virtualisation.";
     };
   };
 
@@ -22,7 +22,11 @@ in {
       virt-manager
     ];
 
+    users.extraGroups.vboxusers.members = [ username ];
+
     virtualisation = {
+      #virtualbox.host.enable = true;
+      #docker.enable = true;
       podman = {
         enable = true;
 

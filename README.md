@@ -58,6 +58,8 @@
             - [x] default.nix
         - variables
             - [x] default.nix
+        - virtualization
+            - [x] default.nix
         - [x] default.nix
     - overlays
         - vaapiIntel
