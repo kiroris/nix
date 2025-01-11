@@ -18,6 +18,7 @@ in {
   config = mkIf cfg.enable {
     hardware.bluetooth = {
       enable = true;
+      powerOnBoot = true;
       package = pkgs.bluez5-experimental;
 
       settings = {

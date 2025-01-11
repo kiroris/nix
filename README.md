@@ -25,6 +25,10 @@
     - ufetch
         - [x] default.nix
 - system
+    - modules
+        - bluetooth
+            - [x] default.nix
+        - [x] default.nix
     - overlays
         - vaapiIntel
             - [x] default.nix
