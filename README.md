@@ -50,6 +50,8 @@
             - [x] default.nix
         - security
             - [x] default.nix
+        - sound
+            - [x] default.nix 
         - [x] default.nix
     - overlays
         - vaapiIntel

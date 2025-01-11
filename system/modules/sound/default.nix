@@ -9,7 +9,7 @@ let
   cfg = config.module.sound;
 in {
   options = {
-    module.sound.enable = mkEnableOption "Enables sound in your system";
+    module.sound.enable = mkEnableOption "Enables sound in your system.";
   };
 
   config = mkIf cfg.enable {
