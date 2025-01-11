@@ -9,7 +9,7 @@ let
   cfg = config.module.programs.zsh;
 in {
   options = {
-    module.programs.zsh.enable = mkEnableOption "Enable zsh";
+    module.programs.zsh.enable = mkEnableOption "Enable zsh.";
   };
 
   config = mkIf cfg.enable {

@@ -53,6 +53,22 @@
                 - [x] default.nix
             - fish
                 - [x] default.nix
+            - gnupg
+                - [x] default.nix
+            - home-manager
+                - [x] default.nix
+            - kdeconnect
+                - [x] default.nix
+            - mtr
+                - [x] default.nix
+            - nix-helper
+                - [x] default.nix
+            - systemPackages
+                - [ ] default.nix
+            - xdg-portal
+                - [x] default.nix
+            - zsh
+                - [x] default.nix
             - [x] default.nix
         - security
             - [x] default.nix

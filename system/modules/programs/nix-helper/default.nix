@@ -10,7 +10,7 @@ let
   cfg = config.module.programs.nh;
 in {
   options = {
-    module.programs.nh.enable = mkEnableOption "Enable Nix Helper";
+    module.programs.nh.enable = mkEnableOption "Enable Nix Helper.";
   };
 
   config = mkIf cfg.enable {

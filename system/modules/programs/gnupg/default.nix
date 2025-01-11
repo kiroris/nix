@@ -9,7 +9,7 @@ let
   cfg = config.module.programs.gnupg;
 in {
   options = {
-    module.programs.gnupg.enable = mkEnableOption "Enables GnuPG";
+    module.programs.gnupg.enable = mkEnableOption "Enables GnuPG.";
   };
 
   config = mkIf cfg.enable {

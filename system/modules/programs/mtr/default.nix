@@ -9,7 +9,7 @@ let
   cfg = config.module.programs.mtr;
 in {
   options = {
-    module.programs.mtr.enable = mkEnableOption "Enable mtr";
+    module.programs.mtr.enable = mkEnableOption "Enable mtr.";
   };
 
   config = mkIf cfg.enable {

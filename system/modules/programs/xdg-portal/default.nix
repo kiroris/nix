@@ -11,7 +11,7 @@ let
   cfg = config.module.programs.xdg-portal;
 in {
   options = {
-    module.programs.xdg-portal.enable = mkEnableOption "Enable xdg-portal";
+    module.programs.xdg-portal.enable = mkEnableOption "Enable xdg-portal.";
   };
 
   config = mkIf cfg.enable {
