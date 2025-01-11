@@ -60,6 +60,8 @@
             - [x] default.nix
         - virtualization
             - [x] default.nix
+        - zapret
+            - [x] default.nix
         - [x] default.nix
     - overlays
         - vaapiIntel
