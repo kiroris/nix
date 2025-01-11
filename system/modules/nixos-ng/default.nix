@@ -10,7 +10,7 @@ let
 in {
   options = {
     module.nixos-ng = {
-      enable = mkEnableOption "Enables nixos-ng";
+      enable = mkEnableOption "Enables nixos-ng.";
     };
   };
 

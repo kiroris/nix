@@ -42,6 +42,8 @@
             - [x] default.nix
         - network
             - [x] default.nix
+        - nixos-ng
+            - [x] default.nix
         - [x] default.nix
     - overlays
         - vaapiIntel
