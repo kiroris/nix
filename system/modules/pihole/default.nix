@@ -9,7 +9,7 @@ let
   cfg = config.module.pihole;
 in {
   options = {
-    module.pihole.enable = mkEnableOption "Enables pihole";
+    module.pihole.enable = mkEnableOption "Enables pihole.";
   };
 
   config = mkIf cfg.enable {

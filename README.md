@@ -44,6 +44,8 @@
             - [x] default.nix
         - nixos-ng
             - [x] default.nix
+        - pihole
+            - [x] default.nix
         - [x] default.nix
     - overlays
         - vaapiIntel
