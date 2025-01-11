@@ -35,6 +35,7 @@
         - gaming
             - [x] default.nix
         - lanzaboot
+            - [x] default.nix
         - locales
         - minimal
         - network

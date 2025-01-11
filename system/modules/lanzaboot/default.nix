@@ -10,7 +10,7 @@ let
 in {
   options = {
     module.lanzaboote = {
-      enable = mkEnableOption "Enables lanzaboote";
+      enable = mkEnableOption "Enables lanzaboote.";
     };
   };
 
