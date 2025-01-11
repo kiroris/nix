@@ -52,6 +52,8 @@
             - [x] default.nix
         - sound
             - [x] default.nix 
+        - timedate
+            - [x] default.nix
         - [x] default.nix
     - overlays
         - vaapiIntel

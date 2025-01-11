@@ -9,7 +9,7 @@ let
   cfg = config.module.timedate;
 in {
   options = {
-    module.timedate.enable = mkEnableOption "Enables timedate";
+    module.timedate.enable = mkEnableOption "Enables timedate.";
   };
 
   config = mkIf cfg.enable {
