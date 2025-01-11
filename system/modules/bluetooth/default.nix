@@ -11,7 +11,7 @@ let
 in {
   options = {
     module.bluetooth = {
-      enable = mkEnableOption "Enables Bluetooth";
+      enable = mkEnableOption "Enables Bluetooth.";
     };
   };
 

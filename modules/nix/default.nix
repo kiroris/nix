@@ -12,7 +12,7 @@ let
 in {
   options = {
     module.nix-config = {
-      enable = mkEnableOption "Enables nix-config";
+      enable = mkEnableOption "Enables nix-config.";
 
       useNixPackageManagerConfig = mkOption {
         type = types.bool;

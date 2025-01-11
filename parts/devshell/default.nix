@@ -2,7 +2,7 @@
   perSystem = { pkgs, ... }: {
     # For nix develop.
     devShells.default = pkgs.mkShell {
-      name = "flake-template";
+      name = "flake-template"; # try to add "."
       meta.description = "DevShell for Flake.";
 
       # Env.

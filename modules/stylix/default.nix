@@ -16,7 +16,7 @@ let
   cursorSize = if hostname == "lycoris" then 24 else 14;
 in {
   options = {
-    module.stylix.enable = mkEnableOption "Enables stylix";
+    module.stylix.enable = mkEnableOption "Enables stylix.";
   };
 
   config = mkIf cfg.enable {

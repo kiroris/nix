@@ -10,7 +10,7 @@ let
 in {
   options = {
     module.boot = {
-      enable = mkEnableOption "Enables Bootloader";
+      enable = mkEnableOption "Enables Bootloader.";
     };
   };
 
