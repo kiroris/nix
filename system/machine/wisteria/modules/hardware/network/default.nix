@@ -19,7 +19,7 @@ _:
     #];
 
     firewall = {
-      enable = true;
+      enable = false;
 
       allowedTCPPorts = [
         8384
