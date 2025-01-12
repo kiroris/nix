@@ -9,7 +9,7 @@ let
   cfg = config.module.services.ollama;
 in {
   options = {
-    module.services.ollama.enable = mkEnableOption "Enables ollama";
+    module.services.ollama.enable = mkEnableOption "Enables ollama.";
   };
 
   config = mkIf cfg.enable {

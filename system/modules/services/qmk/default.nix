@@ -10,7 +10,7 @@ let
   cfg = config.module.services.qmk;
 in {
   options = {
-    module.services.qmk.enable = mkEnableOption "Enables qmk";
+    module.services.qmk.enable = mkEnableOption "Enables qmk.";
   };
 
   config = mkIf cfg.enable {

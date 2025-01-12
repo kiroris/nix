@@ -10,7 +10,7 @@ let
   cfg = config.module.services.syncthing;
 in {
   options = {
-    module.services.syncthing.enable = mkEnableOption "Enable syncthing";
+    module.services.syncthing.enable = mkEnableOption "Enable syncthing.";
   };
 
   config = mkIf cfg.enable {

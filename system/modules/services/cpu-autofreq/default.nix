@@ -9,7 +9,7 @@ let
   cfg = config.module.services.cpu-autofreq;
 in {
   options = {
-    module.services.cpu-autofreq.enable = mkEnableOption "Enable cpu-autofreq";
+    module.services.cpu-autofreq.enable = mkEnableOption "Enable cpu-autofreq.";
   };
 
   config = mkIf cfg.enable {

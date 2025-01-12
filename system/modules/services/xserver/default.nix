@@ -10,7 +10,7 @@ let
   cfg = config.module.services.xserver;
 in {
   options = {
-    module.services.xserver.enable = mkEnableOption "Enable xserver";
+    module.services.xserver.enable = mkEnableOption "Enable xserver.";
   };
 
   config = mkIf cfg.enable {

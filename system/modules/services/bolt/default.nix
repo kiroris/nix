@@ -9,7 +9,7 @@ let
   cfg = config.module.services.bolt;
 in {
   options = {
-    module.services.bolt.enable = mkEnableOption "Enable bolt";
+    module.services.bolt.enable = mkEnableOption "Enable bolt.";
   };
 
   config = mkIf cfg.enable {

@@ -9,7 +9,7 @@ let
   cfg = config.module.services.zram;
 in {
   options = {
-    module.services.zram.enable = mkEnableOption "Enable zram";
+    module.services.zram.enable = mkEnableOption "Enable zram.";
   };
 
   config = mkIf cfg.enable {

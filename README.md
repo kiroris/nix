@@ -73,8 +73,53 @@
         - security
             - [x] default.nix
         - services
-            -
-            -
+            - adguard-home
+                - [x] default.nix
+            - bolt
+                - [x] default.nix
+            - cpu-autofreq
+                - [x] default.nix
+            - forgejo
+                - [x] default.nix
+            - fwupd
+                - [x] default.nix
+            - greetd
+                - [x] default.nix
+            - homepage-dashboard
+                - [x] default.nix
+            - hyprland
+                - [x] default.nix
+            - jellyfin
+                - [x] default.nix
+            - mediamtx
+                - [x] default.nix
+            - netbird
+                - [x] default.nix
+            - ollama
+                - [x] default.nix
+            - polkit
+                - [x] default.nix
+            - printing
+                - [x] default.nix
+            - qmk
+                - [x] default.nix
+            - sshd
+                - [x] default.nix
+            - syncthing
+                - [x] default.nix
+            - tailscale
+                - [x] default.nix
+            - tlp
+                - [x] default.nix
+            - udev
+                - [x] default.nix
+            - unbound
+                - [x] default.nix
+            - xserver
+                - [x] default.nix
+            - zram
+                - [x] default.nix
+            - [x] default.nix
         - sound
             - [x] default.nix 
         - timedate
@@ -100,4 +145,4 @@
     - overlay
         - [x] default.nix
     - [x] default.nix
-- [] hosts.nix
+- [ ] hosts.nix

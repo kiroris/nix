@@ -9,7 +9,7 @@ let
   cfg = config.module.services.forgejo;
 in {
   options = {
-    module.services.forgejo.enable = mkEnableOption "Enable forgejo";
+    module.services.forgejo.enable = mkEnableOption "Enable forgejo.";
   };
 
   config = mkIf cfg.enable {

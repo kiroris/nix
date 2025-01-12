@@ -12,7 +12,7 @@ in
 {
   options = {
     module.services.homepage-dashboard = {
-      enable = mkEnableOption "Enables homepage-dashboard";
+      enable = mkEnableOption "Enables homepage-dashboard.";
     };
   };
   

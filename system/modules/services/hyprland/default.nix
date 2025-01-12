@@ -11,7 +11,7 @@ let
   cfg = config.module.services.hyprland;
 in {
   options = {
-    module.services.hyprland.enable = mkEnableOption "Enables hyprland";
+    module.services.hyprland.enable = mkEnableOption "Enables hyprland.";
   };
 
   config = mkIf cfg.enable {

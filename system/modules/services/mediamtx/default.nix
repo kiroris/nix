@@ -9,7 +9,7 @@ let
   cfg = config.module.services.mediamtx;
 in {
   options = {
-    module.services.mediamtx.enable = mkEnableOption "Enable mediamtx";
+    module.services.mediamtx.enable = mkEnableOption "Enable mediamtx.";
   };
 
   config = mkIf cfg.enable {

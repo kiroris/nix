@@ -20,7 +20,7 @@ let
 in {
   options = {
     module.services.greetd = {
-      enable = mkEnableOption "Enable greetd";
+      enable = mkEnableOption "Enable greetd.";
     };
   };
 

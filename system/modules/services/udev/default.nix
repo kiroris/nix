@@ -9,7 +9,7 @@ let
   cfg = config.module.services.udev;
 in {
   options = {
-    module.services.udev.enable = mkEnableOption "Enable udev";
+    module.services.udev.enable = mkEnableOption "Enable udev.";
   };
 
   config = mkIf cfg.enable {

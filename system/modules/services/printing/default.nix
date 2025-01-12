@@ -9,7 +9,7 @@ let
   cfg = config.module.services.printing;
 in {
   options = {
-    module.services.printing.enable = mkEnableOption "Enable printing";
+    module.services.printing.enable = mkEnableOption "Enable printing.";
   };
 
   config = mkIf cfg.enable {

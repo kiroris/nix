@@ -9,7 +9,7 @@ let
   cfg = config.module.services.sshd;
 in {
   options = {
-    module.services.sshd.enable = mkEnableOption "Enable ssh";
+    module.services.sshd.enable = mkEnableOption "Enable ssh.";
   };
 
   config = mkIf cfg.enable {

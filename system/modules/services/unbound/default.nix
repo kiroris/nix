@@ -10,7 +10,7 @@ let
 in {
   options = {
     module.services.unbound = {
-      enable = mkEnableOption "Enables unbound";
+      enable = mkEnableOption "Enables unbound.";
     };
   };
 

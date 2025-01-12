@@ -9,7 +9,7 @@ let
   cfg = config.module.services.tlp;
 in {
   options = {
-    module.services.tlp.enable = mkEnableOption "Enable tlp";
+    module.services.tlp.enable = mkEnableOption "Enable tlp.";
   };
 
   config = mkIf cfg.enable {

@@ -11,7 +11,7 @@ let
 in {
   options = {
     module.services.netbird = {
-      enable = mkEnableOption "Enables netbird";
+      enable = mkEnableOption "Enables netbird.";
     };
   };
 

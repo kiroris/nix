@@ -9,7 +9,7 @@ let
   cfg = config.module.services.polkit;
 in {
   options = {
-    module.services.polkit.enable = mkEnableOption "Enable polkit";
+    module.services.polkit.enable = mkEnableOption "Enable polkit.";
   };
 
   config = mkIf cfg.enable {

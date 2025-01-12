@@ -10,7 +10,7 @@ let
 in {
   options = {
     module.services.adguard-home = {
-      enable = mkEnableOption "Enables adguard-home";
+      enable = mkEnableOption "Enables adguard-home.";
     };
   };
 
