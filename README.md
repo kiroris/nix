@@ -9,6 +9,13 @@
             - [x] default.nix
         - waybar
             - [x] default.nix
+    - users
+        - root
+            - [x] default.nix
+        - test
+            - nbox
+                - [x] default.nix
+            - [x] default.nix
     - [x] default.nix
 - lib
     - [x] default.nix
