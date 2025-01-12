@@ -29,12 +29,17 @@
         - wisteria
             - modules
                 - hardware
-                    -
-                    -
-                    -
-                    -
-                    -
-                    - [ ] default.nix
+                    - disks
+                        -
+                    - extra-hardware
+                        - 
+                    - graphics-card
+                        - 
+                    - kernel
+                        - 
+                    - network
+                        -
+                    - [x] default.nix
                 - ollama
                     - [x] default.nix
                 - [x] default.nix
