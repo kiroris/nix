@@ -1,3 +1,15 @@
+- [ ] assets
+- home
+    - overlays
+        - chrome
+            - [x] default.nix
+        - rofi-calc
+            - [x] default.nix
+        - rofi-emoji
+            - [x] default.nix
+        - waybar
+            - [x] default.nix
+    - [x] default.nix
 - lib
     - [x] default.nix
 - modules
