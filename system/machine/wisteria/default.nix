@@ -4,76 +4,66 @@
 
 {
   module = {
-    bluetooth.enable      = false;
-    boot.enable           = false;
+    sound.enable          = true;
+    boot.enable           = true;
+    bluetooth.enable      = true;
+    locales.enable        = true;
+    network.enable        = true;
+    timedate.enable       = true;
+    users.enable          = true;
+    variables.enable      = true;
+    virtualisation.enable = true;
+    stylix.enable         = true;
+    minimal.enable        = true;
+    nixos-ng.enable       = true;
+    plymouth.enable       = true;
     gaming.enable         = false;
-    lanzaboot.enable      = false;
-    locales.enable        = false;
-    minimal.enable        = false;
-    network.enable        = false;
-    nixos-ng.enable       = false;
-    pihole.enable         = false;
-    plymouth.enable       = false;
-    sound.enable          = false;
-    timedate.enable       = false;
-    users.enable          = false;
-    variables.enable      = false;
-    virtualisation.enable = false;
-    zapret.enable         = false;
-    stylix.enable         = false;
 
     chaotic = {
-      enable = false;
+      enable = true;
       schedulerType = "scx_bpfland";
     };
 
     security = {
-      enable            = false;
-      enableBootOptions = false;
-      disableIPV6       = false;
+      enable            = true;
+      enableBootOptions = true;
+      disableIPV6       = true;
     };
 
     services = {
-      adguard-home        = false;
-      bolt.enable         = false;
-      cpu-autofreq.enable = false;
-      forgejo.enable      = false;
-      fwupd.enable        = false;
-      greetd.enable       = false;
-      homepage-dashboard  = false;
-      hyprland.enable     = false;
-      jellyfin.enable     = false;
-      mediamtx.enable     = false;
-      netbird.enable      = false;
-      polkit.enable       = false;
-      printing.enable     = false;
-      qmk.enable          = false;
-      sshd.enable         = false;
-      syncthing.enable    = false;
-      tailscale.enable    = false;
-      tlp.enable          = false;
-      udev.enable         = false;
-      unbound.enable      = false;
-      xserver.enable      = false;
-      zram.enable         = false;
+      bolt.enable       = true;
+      fwupd.enable      = true;
+      polkit.enable     = true;
+      printing.enable   = false;
+      syncthing.enable  = true;
+      udev.enable       = true;
+      zram.enable       = true;
+      greetd.enable     = true;
+      qmk.enable        = true;
+      netbird.enable    = true;
+      jellyfin.enable   = true;
+      mediamtx.enable   = true;
+      forgejo.enable    = true;
+      sshd.enable       = true;
+      tailscale.enable  = true;
 
       ollama = {
-        enable            = false;
+        enable            = true;
         gpuSupport.enable = config.services.ollama.enable;
       };
     };
 
     programs = {
-      dconf.enable          = false;
-      fish.enable           = false;
-      gnupg.enable          = false;
-      hm.enable             = false;
-      kdeconnect.enable     = false;
-      mtr.enable            = false;
-      nh.enable             = false;
-      systemPackages.enable = false;
-      xdg-portal.enable     = false;
-      zsh.enable            = false;
+      dconf.enable          = true;
+      gnupg.enable          = true;
+      hm.enable             = true;
+      nh.enable             = true;
+      kdeconnect.enable     = true;
+      mtr.enable            = true;
+      xdg-portal.enable     = true;
+      zsh.enable            = true;
+      fish.enable           = true;
+      systemPackages.enable = true;
     };
   };
 }
