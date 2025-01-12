@@ -11,7 +11,7 @@ let
   cfg = config.module.programs.systemPackages;
 in {
   options = {
-    module.programs.systemPackages.enable = mkEnableOption "Enable System Software";
+    module.programs.systemPackages.enable = mkEnableOption "Enable System Software.";
   };
 
   config = mkIf cfg.enable {
@@ -21,26 +21,33 @@ in {
     ];
 
     environment.systemPackages = with pkgs; [
-      # Utils
-      tldr
+      # Utils.
+      tldr #?
       git
-      home-manager
+      home-manager #?
+      # du-dust
+      # duf
+      # eza
+      # tmux
       nvd
       nix-output-monitor
       curl
       wget
       tree
       file
-      zip
-      unrar-free
-      p7zip
-      unzip
-      xz
-      zstd
       killall
       jq
 
-      # Hardware utils
+      # Archives.
+      p7zip
+      zstd
+      xz
+      zip
+      unzip
+      rar
+      unrar-free
+
+      # Hardware utils.
       glxinfo
       pciutils
       usbutils
@@ -53,7 +60,7 @@ in {
       cpufetch
       sbctl
 
-      # Network
+      # Network.
       wireshark
       inetutils
       tcpdump
@@ -68,22 +75,22 @@ in {
       ipcalc
       cacert
     ] ++ optionals isWorkstation [
-      # Themes
-      orchis-theme
-      vimix-cursors
+      # Themes.
+      orchis-theme #?
+      vimix-cursors #?
       tela-circle-icon-theme
 
-      # Hardware
+      # Hardware.
       microcodeIntel
       libGL
 
-      # Hardware utils
+      # Hardware utils.
       libva-utils
       intel-gpu-tools
       fwupd
       fwupd-efi
 
-      # Utils
+      # Utils.
       dconf-editor
     ];
   };

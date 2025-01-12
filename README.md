@@ -85,7 +85,7 @@
             - nix-helper
                 - [x] default.nix
             - systemPackages
-                - [ ] default.nix
+                - [x] default.nix
             - xdg-portal
                 - [x] default.nix
             - zsh
