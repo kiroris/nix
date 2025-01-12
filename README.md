@@ -45,7 +45,7 @@
                 - ollama
                     - [x] default.nix
                 - [x] default.nix
-            - [ ] default.nix
+            - [x] default.nix
     - modules
         - bluetooth
             - [x] default.nix
