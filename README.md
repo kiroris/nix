@@ -30,13 +30,13 @@
             - modules
                 - hardware
                     - disks
-                        - [x] default.nix 
+                        - [x] default.nix
                     - extra-hardware
                         - [x] default.nix
                     - graphics-card
                         - [x] default.nix
                     - impermanence
-                        - [ ] default.nix
+                        - [x] default.nix
                     - kernel
                         - [x] default.nix
                     - network
