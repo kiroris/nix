@@ -11,6 +11,10 @@
             - [x] default.nix
         - emacs
             - [x] default.nix
+        - eza
+            - [x] default.nix
+        - fastfetch
+            - [x] default.nix
         - [x] default.nix
     - overlays
         - chrome
