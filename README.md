@@ -1,5 +1,17 @@
 - [ ] assets
 - home
+    - modules
+        - alacritty
+            - [x] default.nix
+        - btop
+            - [x] default.nix
+        - chrome
+            - [x] default.nix
+        - dconf
+            - [x] default.nix
+        - emacs
+            - [x] default.nix
+        - [x] default.nix
     - overlays
         - chrome
             - [x] default.nix
@@ -10,6 +22,8 @@
         - waybar
             - [x] default.nix
     - users
+        - kiroris
+            - [ ] default.nix
         - root
             - [x] default.nix
         - test
