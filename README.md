@@ -25,6 +25,20 @@
     - ufetch
         - [x] default.nix
 - system
+    - machine
+        - wisteria
+            - modules
+                - hardware
+                    -
+                    -
+                    -
+                    -
+                    -
+                    - [ ] default.nix
+                - ollama
+                    - [x] default.nix
+                - [x] default.nix
+            - [ ] default.nix
     - modules
         - bluetooth
             - [x] default.nix

@@ -9,13 +9,13 @@ let
   cfg = config.module.services.ollama.gpuSupport;
 in {
   options = {
-    module.services.ollama.gpuSupport.enable = mkEnableOption "Enable gpuSupport for ollama";
+    module.services.ollama.gpuSupport.enable = mkEnableOption "Enable gpuSupport for ollama.";
   };
 
   config = mkIf cfg.enable {
     services.ollama = {
       acceleration = "rocm";
-      rocmOverrideGfx = "11.0.2";
+      rocmOverrideGfx = "11.0.2"; # Corgiek use "8.0.3".
 
       #environmentVariables = {
       #  HCC_AMDGPU_TARGET = "gfx1102";
