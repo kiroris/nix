@@ -4,20 +4,27 @@
 
 {
   module = {
-    sound.enable          = true;
+    #bluetooth.enable      = true;
     boot.enable           = true;
-    bluetooth.enable      = true;
+    # chaotic.
+    #gaming.enable         = true;
+    #lanzaboot.enable      = true;
     locales.enable        = true;
+    minimal.enable        = true;
     network.enable        = true;
+    nixos-ng.enable       = true;
+    #pihole.enable         = true;
+    plymouth.enable       = true;
+    # programs.
+    # security.
+    # services.
+    sound.enable          = true;
     timedate.enable       = true;
     users.enable          = true;
     variables.enable      = true;
     virtualisation.enable = true;
+    #zapret.enable         = true;
     stylix.enable         = true;
-    minimal.enable        = true;
-    nixos-ng.enable       = true;
-    plymouth.enable       = true;
-    gaming.enable         = false;
 
     chaotic = {
       enable = true;
@@ -31,21 +38,29 @@
     };
 
     services = {
-      bolt.enable       = true;
-      fwupd.enable      = true;
-      polkit.enable     = true;
-      printing.enable   = false;
-      syncthing.enable  = true;
-      udev.enable       = true;
-      zram.enable       = true;
-      greetd.enable     = true;
-      qmk.enable        = true;
-      netbird.enable    = true;
-      jellyfin.enable   = true;
-      mediamtx.enable   = true;
-      forgejo.enable    = true;
-      sshd.enable       = true;
-      tailscale.enable  = true;
+      #adguard-home.enable = true;
+      bolt.enable         = true;
+      #cpu-autofreq.enable = true;
+      #forgejo.enable      = true;
+      fwupd.enable        = true;
+      greetd.enable       = true;
+      #homepage-dashboard.enable = true;
+      #hyprland.enable     = true;
+      #jellyfin.enable     = true;
+      #mediamtx.enable     = true;
+      #netbird.enable      = true;
+      # ollama.
+      polkit.enable       = true;
+      #printing.enable     = true;
+      qmk.enable          = true;
+      sshd.enable         = true;
+      syncthing.enable    = true;
+      #tailscale.enable    = true;
+      #tlp.enable          = true;
+      udev.enable         = true;
+      #unbound.enable      = true;
+      #xserver.enable      = true;
+      zram.enable         = true;
 
       ollama = {
         enable            = true;
@@ -55,15 +70,15 @@
 
     programs = {
       dconf.enable          = true;
+      fish.enable           = true;
       gnupg.enable          = true;
       hm.enable             = true;
-      nh.enable             = true;
       kdeconnect.enable     = true;
       mtr.enable            = true;
+      nh.enable             = true;
+      systemPackages.enable = true;
       xdg-portal.enable     = true;
       zsh.enable            = true;
-      fish.enable           = true;
-      systemPackages.enable = true;
     };
   };
 }
@@ -99,13 +114,13 @@
 #    };
 #
 #    services = {
-#      adguard-home        = false;
+#      adguard-home.enable = false;
 #      bolt.enable         = false;
 #      cpu-autofreq.enable = false;
 #      forgejo.enable      = false;
 #      fwupd.enable        = false;
 #      greetd.enable       = false;
-#      homepage-dashboard  = false;
+#      homepage-dashboard.enable = false;
 #      hyprland.enable     = false;
 #      jellyfin.enable     = false;
 #      mediamtx.enable     = false;
