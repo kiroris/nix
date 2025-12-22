@@ -1,5 +1,5 @@
 {
-  description = "Kiroris wtf bro";
+  description = "Kiroris flake";
 
   inputs = {
     # Official NixOS repository
@@ -55,8 +55,8 @@
         # NixOS Hosts configuration
         nixosConfigurations = libx.genNixos hosts.nixos;
 
-      #  # Templates
-      #  #templates = import "${self}/templates" {inherit self;};
+        #  # Templates
+        #  #templates = import "${self}/templates" {inherit self;};
       };
     };
 }

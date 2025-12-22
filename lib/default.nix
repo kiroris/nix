@@ -55,7 +55,7 @@
           hyprlandEnable
           swayEnable
           wmEnable
-	  gnomeEnable
+          gnomeEnable
           hostType
           ;
       };
