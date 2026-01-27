@@ -3,7 +3,7 @@
     binfmt.enable = true;
     bluetooth.enable = true;
     boot.enable = true;
-    ##lanzaboote
+    ##lanzaboote.enable = false;
     locales.enable = true;
     minimal.enable = true;
     network.enable = true;
@@ -12,9 +12,9 @@
     timedate.enable = true;
     users.enable = true;
     variables.enable = true;
-    #virtualization
+    virtualization.enable = true;
     xdg.enable = true;
-    #zapret
+    zapret.enable = true;
 
     # stylix.enable = true;
 
