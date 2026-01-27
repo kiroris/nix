@@ -7,7 +7,7 @@
 
   constructors = [
     #"${self}/home"
-    #"${self}/system"
+    "${self}/system"
   ];
 
   allDirs = dirName:
@@ -62,8 +62,8 @@
 
       modules = with inputs;
         [
-          #home-manager.nixosModules.home-manager
-          #stylix.nixosModules.stylix
+          home-manager.nixosModules.home-manager
+          stylix.nixosModules.stylix
           #impermanence.nixosModules.impermanence
           #disko.nixosModules.disko
           #lanzaboote.nixosModules.lanzaboote

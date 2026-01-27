@@ -32,6 +32,14 @@
       url = "github:hercules-ci/flake-parts";
       inputs.nixpkgs-lib.follows = "nixpkgs";
     };
+
+    nur = {
+      url = "github:nix-community/NUR";
+    };
+
+    stylix = {
+      url = "github:danth/stylix";
+    };
   };
 
   outputs = {
@@ -54,9 +62,6 @@
       flake = {
         # NixOS Hosts configuration
         nixosConfigurations = libx.genNixos hosts.nixos;
-
-        #  # Templates
-        #  #templates = import "${self}/templates" {inherit self;};
       };
     };
 }
