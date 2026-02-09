@@ -19,10 +19,10 @@ in {
       settings = {
         PasswordAuthentication = true; # false
         KbdInteractiveAuthentication = false;
-        AuthenticationMethods = "publickey";
-        PubkeyAuthentication = "yes";
-        ChallengeResponseAuthentication = "no";
-        UsePAM = false;
+        #AuthenticationMethods = "publickey";
+        #PubkeyAuthentication = "yes";
+        #ChallengeResponseAuthentication = "no";
+        #UsePAM = false;
         X11Forwarding = false;
         LogLevel = "VERBOSE";
         Ciphers = [

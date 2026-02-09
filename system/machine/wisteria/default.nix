@@ -21,10 +21,10 @@
     programs = {
       ##dconf
       gaming.enable = true;
-      ##gnupg
+      ##gnupg # not need
       hm.enable = true;
       kdeconnect.enable = true;
-      ##mtr
+      ##mtr #????
       nh.enable = true;
       ##pihole
       systemPackages.enable = true;
@@ -42,25 +42,23 @@
     services = {
       ##adguard-home
       ##bolt
-      #cpu-autofreq # Laptop
+      cpu-autofreq.enable = true;
       ##fwupd # Later
       ##greetd
       ##gnome.enable = true;
       irqbalance.enable = true;
       journald.enable = true;
-      ##netbird
+      ##netbird # later
       oomd.enable = true;
       polkit.enable = true;
       ##postgresql
       ##printing
-      ##scx
-      ##searxng
-      ssh.enable = true;
-      ##syncthing
+      ##scx # расскидывает нагрузку по ядрам
+      ssh.enable = true; # need check
+      ##syncthing # синхранизация между хостами ИМБА!
       ##tailscale # FORRMATIIING!!!
       #tlp # Laptop
-      ##udev # Later
-      ##unbound # Later
+      udev.enable = true;
       zram.enable = true;
     };
   };
