@@ -16,15 +16,14 @@
     xdg.enable = true;
     zapret.enable = true;
 
-    # stylix.enable = true;
+    ##############################################stylix.enable = true;
 
     programs = {
-      ##dconf
+      dconf.enable = true;
       gaming.enable = true;
       ##gnupg # not need
       hm.enable = true;
       kdeconnect.enable = true;
-      ##mtr #????
       nh.enable = true;
       ##pihole
       systemPackages.enable = true;
@@ -43,19 +42,17 @@
       ##adguard-home
       ##bolt
       cpu-autofreq.enable = true;
-      ##fwupd # Later
-      ##greetd
-      ##gnome.enable = true;
+      fwupd.enable = true;
       irqbalance.enable = true;
       journald.enable = true;
-      ##netbird # later
+      ##netbird # LATER
       oomd.enable = true;
       polkit.enable = true;
-      ##postgresql
-      ##printing
-      ##scx # расскидывает нагрузку по ядрам
+      ##postgresql # LATER
+      printing.enable = true;
+      scx.enable = true;
       ssh.enable = true; # need check
-      ##syncthing # синхранизация между хостами ИМБА!
+      syncthing.enable = true;
       ##tailscale # FORRMATIIING!!!
       #tlp # Laptop
       udev.enable = true;
