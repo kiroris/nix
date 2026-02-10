@@ -16,7 +16,7 @@
     xdg.enable = true;
     zapret.enable = true;
 
-    ##############################################stylix.enable = true;
+    stylix.enable = true;
 
     programs = {
       dconf.enable = true;

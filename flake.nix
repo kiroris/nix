@@ -40,6 +40,11 @@
     stylix = {
       url = "github:danth/stylix";
     };
+
+    nvf = {
+      url = "github:notashelf/nvf";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = {

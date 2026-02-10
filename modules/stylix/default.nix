@@ -87,10 +87,10 @@ in {
       {
         enable = true;
         #enableReleaseChecks = false; # Enable for debug
-        #image = themes.${theme}.wallpaper;
+        image = themes.${theme}.wallpaper;
         autoEnable = true;
         polarity = "dark";
-        #base16Scheme = themes.${theme}.scheme;
+        base16Scheme = themes.${theme}.scheme;
         #icons = themes.${theme}.icons;
 
         opacity = {

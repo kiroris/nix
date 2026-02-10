@@ -19,7 +19,7 @@ in {
         enable = true;
 
         # Prevent "too many" configurations from showing up on the boot menu
-        #configurationLimit = 5;
+        configurationLimit = 20;
 
         # The default is "keep"
         consoleMode = "max";
