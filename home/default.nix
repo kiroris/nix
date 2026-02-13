@@ -54,7 +54,7 @@ in {
         swayEnable
         hyprlandEnable
         wmEnable
-	gnomeEnable
+        gnomeEnable
         ;
     };
 

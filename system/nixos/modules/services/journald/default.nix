@@ -11,7 +11,7 @@ in {
   };
 
   config = mkIf cfg.enable {
-    # limit systemd journal size
+    # Limit systemd journal size
     # https://wiki.archlinux.org/title/Systemd/Journal#Persistent_journals
     services.journald.extraConfig = ''
       SystemMaxUse=100M

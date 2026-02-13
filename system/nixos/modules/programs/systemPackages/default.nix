@@ -68,7 +68,7 @@ in {
       ]
       ++ optionals isWorkstation [
         # Hardware
-        #microcode-intel
+        ##microcode-intel
         microcode-amd
         libGL
 

@@ -40,7 +40,7 @@
 
     services = {
       ##adguard-home
-      ##bolt
+      bolt.enable = true;
       cpu-autofreq.enable = true;
       fwupd.enable = true;
       irqbalance.enable = true;

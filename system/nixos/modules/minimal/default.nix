@@ -21,7 +21,7 @@ in {
       man.man-db.enable = mkDefault false;
       man.mandoc.enable = mkDefault false;
       man.generateCaches = mkDefault false;
-      #nixos.enable = mkDefault false;
+      nixos.enable = mkDefault false;
     };
 
     environment = {
