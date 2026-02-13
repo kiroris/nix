@@ -53,7 +53,7 @@
       scx.enable = true;
       ssh.enable = true; # need check
       syncthing.enable = true;
-      ##tailscale # FORRMATIIING!!!
+      tailscale.enable = true;
       #tlp # Laptop
       udev.enable = true;
       zram.enable = true;

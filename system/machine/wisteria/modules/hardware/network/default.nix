@@ -12,6 +12,7 @@ _: {
         8384
         22000
         57621 # Spotify
+        2257 # ssh
       ];
 
       allowedUDPPorts = [
