@@ -40,27 +40,27 @@
         }
         {
           workspace = "7";
-          output = "DP-1";
+          output = "HDMI-A-1";
         }
         {
           workspace = "8";
-          output = "DP-1";
+          output = "HDMI-A-1";
         }
         {
           workspace = "9";
-          output = "DP-1";
+          output = "HDMI-A-1";
         }
         {
           workspace = "10";
-          output = "DP-1";
+          output = "HDMI-A-1";
         }
         {
           workspace = "11";
-          output = "DP-1";
+          output = "HDMI-A-1";
         }
         {
           workspace = "12";
-          output = "DP-1";
+          output = "HDMI-A-1";
         }
       ];
     };
@@ -78,12 +78,12 @@
         "4,  monitor:HDMI-A-1, default:true"
         "5,  monitor:HDMI-A-1, default:true"
         "6,  monitor:HDMI-A-1, default:true"
-        "7,  monitor:DP-1,    default:true"
-        "8,  monitor:DP-1,    default:true"
-        "9,  monitor:DP-1,    default:true"
-        "10, monitor:DP-1,    default:true"
-        "11, monitor:DP-1,    default:true"
-        "12, monitor:DP-1,    default:true"
+        "7,  monitor:HDMI-A-1, default:true"
+        "8,  monitor:HDMI-A-1, default:true"
+        "9,  monitor:HDMI-A-1, default:true"
+        "10, monitor:HDMI-A-1, default:true"
+        "11, monitor:HDMI-A-1, default:true"
+        "12, monitor:HDMI-A-1, default:true"
       ];
     };
   };
